@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: 0.8em;
+}
+
+.navitem {
+    margin: 0 0.6em;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: black;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+}
+
+#signin {
+    background-color: #1a73e8;
+    padding: 0.6em 1.8em;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+#signin:hover {
+    background-color: #2b7de9;
+}
