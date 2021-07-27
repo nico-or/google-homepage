@@ -29,3 +29,31 @@ nav {
 #signin:hover {
     background-color: #2b7de9;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer #lower {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+footer #location {
+ color: rgba(0,0,0,.54);
+ padding: 15px 30px;
+ border-bottom: 1px solid rgb(218, 220, 224);
+}
+
+footer a {
+    color: #70757a;
+    text-decoration: none;
+    padding: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
