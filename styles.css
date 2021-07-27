@@ -70,3 +70,45 @@ footer a {
     color: #70757a;
     padding: 15px;
 }
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 560px;
+    padding: 5px 8px 0px 14px;
+}
+
+#searchbar {
+    border: 1px solid;
+    height: 35px;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 18px;
+    height: 70px;
+}
+
+input.search-button {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+input.search-button:hover {
+    cursor: pointer;
+    border-color: rgb(218, 220, 224);
+}
