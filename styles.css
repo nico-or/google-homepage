@@ -81,11 +81,16 @@ footer a {
     display: flex;
     align-items: center;
 
-    border: 1px solid;
+    border: 2px solid rgba(216, 216, 216, 0.986);
     border-radius: 25px;
     height: 40px;
-    width: 560px;
+    width: 580px;
     padding: 5px 8px 0px 14px;
+}
+
+#search-container:hover {
+    border-color: white;
+    box-shadow: 0px 0px 4px 1px rgb(197, 197, 197);
 }
 
 #searchbar {
