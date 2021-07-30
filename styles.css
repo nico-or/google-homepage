@@ -94,8 +94,9 @@ footer a {
 }
 
 #searchbar {
-    border: 1px solid;
+    border: none;
     height: 35px;
+    flex-basis: 90%;
 }
 
 #button-container {
