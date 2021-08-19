@@ -130,3 +130,7 @@ input.search-button:hover {
     cursor: pointer;
     border-color: rgb(218, 220, 224);
 }
+
+input.search-button:focus {
+    border-color: rgb(64, 140, 226);
+}
