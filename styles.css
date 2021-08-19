@@ -80,6 +80,11 @@ footer a {
     top: 25vh;
 }
 
+#logo img{
+    width: 250px;
+    padding: 25px;
+}
+
 #search-container {
     display: flex;
     align-items: center;
